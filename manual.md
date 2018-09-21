@@ -8,6 +8,9 @@ System Preferences
   - Input sources
     - Add English ABC
     - Disable input menu in menu bar
+- Dock
+  - Decrease size
+  - Automatically hide
 
 Firefox
 -------
