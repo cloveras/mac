@@ -4,6 +4,7 @@
 	[ ] install pmp
 	[ ] install plexamp
 	[ ] 
+[ ] /etc/shells
 [ ] move to brew cask
 [ ] import relevant dotfiles
 [ ] newer bash as default shell
