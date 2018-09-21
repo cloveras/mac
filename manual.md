@@ -27,3 +27,9 @@ Firefox
   - Add flexible space for macos window controls
   - Density: compact
   - Remove home, refresh, library, sidebars buttons
+
+Office 365
+----------
+
+- Onedrive
+  - Login and accept defaults
