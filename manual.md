@@ -19,8 +19,6 @@ Firefox
   - Tree Style Tab
   - uBlock Origin
   - Tridactyl
-    - bind <C-f> scrollpage 1
-    - bind <C-b> scrollpage -1
 - Preferences:
   - General
     - Select: Show your windows and tabs from last time
