@@ -5,3 +5,5 @@ pkg() {
 }
 
 pkg pass
+
+app firefox
