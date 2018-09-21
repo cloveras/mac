@@ -7,6 +7,7 @@ System Preferences
 - Keyboard
   - Input sources
     - Add English ABC
+    - Disable input menu in menu bar
 
 Firefox
 -------
