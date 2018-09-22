@@ -22,9 +22,9 @@ Firefox
   - Tridactyl
 - Preferences:
   - General
-    - Select: Show your windows and tabs from last time
+    - Select: Restore previous session
   - Privacy & Security
-    - Disable: Remember logins and passwords for websites
+    - Disable: Ask to save logins and passwords
 - Customize
   - Remove flexible spaces
   - Add flexible space for macos window controls
