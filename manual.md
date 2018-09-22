@@ -11,6 +11,7 @@ System Preferences
 - Dock
   - Decrease size
   - Automatically hide
+  - Position left
 
 Firefox
 -------
