@@ -20,6 +20,7 @@ Firefox
   - Tree Style Tab
   - uBlock Origin
   - Tridactyl
+  - Firefox Multi-Account Containers
 - Preferences:
   - General
     - Select: Restore previous session
