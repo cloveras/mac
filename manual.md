@@ -32,8 +32,16 @@ Firefox
   - Density: compact
   - Remove home, refresh, library, sidebars buttons
 
+Mail
+----
+
+- Exchange
+  - Name, email, password
+  - Use with: mail, contacts, calendars
+
 Office 365
 ----------
 
+- Download and install from portal.office.com
 - Onedrive
   - Login and accept defaults
