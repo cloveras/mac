@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if ! [ -x /usr/local/bin/brew ]; then
+	hburl=https://raw.githubusercontent.com/Homebrew/install/master/install
+	ruby -e "$(curl -fsSL $hburl)"
+fi
+
 pkg() {
 	brew ls --versions $1 >/dev/null || brew install $1
 }
