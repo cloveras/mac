@@ -43,5 +43,8 @@ Office 365
 ----------
 
 - Download and install from portal.office.com
+- Delete:
+  - Outlook
+  - Onenote
 - Onedrive
   - Login and accept defaults
