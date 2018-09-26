@@ -23,6 +23,9 @@ System Preferences
       - Subset to Sunrise
 - Sound
   - Disable interface sound effects
+- Siri
+  - Disable siri
+  - Disable siri in menu bar
 
 Firefox
 -------
