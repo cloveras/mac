@@ -69,3 +69,8 @@ Office 365
   - Onenote
 - Onedrive
   - Login and accept defaults
+
+Backup and Sync
+---------------
+
+- Login, accept defaults
