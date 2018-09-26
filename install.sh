@@ -23,5 +23,6 @@ pkg tmux
 pkg pass
 
 app firefox
+app google-photos-backup-and-sync
 
 mas 803453959  # Slack
