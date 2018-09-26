@@ -39,6 +39,13 @@ Mail
   - Name, email, password
   - Use with: mail, contacts, calendars
 
+Calendar
+--------
+
+- Preferences -> Accounts -> Google
+  - Add personal mail
+  - Change colors
+
 Office 365
 ----------
 
