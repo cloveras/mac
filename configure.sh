@@ -1,6 +1,8 @@
-#!/bin/sh -x
+#!/bin/sh
 
-F=$(dirname $0)/files
+ROOT=$(cd "$(dirname "$0")"; pwd -P)
+TEMPLATES=$ROOT/templates
+FILES=$ROOT/files
 
 ##
 ## Firefox
@@ -14,8 +16,8 @@ for d in "$ff_profile_dir"/*.default "$ff_profile_dir"/*.priv; do
 	fi
 
 	mkdir -p "$d"/chrome
-	cp $F/user.uc.js "$d"/chrome/user.uc.js
-	cp $F/userChrome.css "$d"/chrome/userChrome.css
+	cp $TEMPLATES/user.uc.js "$d"/chrome/user.uc.js
+	cp $TEMPLATES/userChrome.css "$d"/chrome/userChrome.css
 done
 
 ##
@@ -30,3 +32,19 @@ hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x70
 ##
 
 defaults write -g NSRequiresAquaSystemAppearance -bool Yes
+
+##
+## Dotfiles
+##
+
+for f in $(find $FILES -type f); do
+	rel=${f##$FILES/}
+	src="$FILES/$rel"
+	dst="$HOME/$rel"
+
+	mkdir -p $(dirname "$dst")
+
+	if ! [ -h "$dst" ]; then
+		ln -s "$src" "$dst"
+	fi
+done
