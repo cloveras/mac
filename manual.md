@@ -14,6 +14,15 @@ System Preferences
   - Decrease size
   - Automatically hide
   - Position left
+- Notifications
+  - Plexamp: None
+- Displays
+  - Built-in Retina Display:
+    - More Space
+    - Night Shift
+      - Subset to Sunrise
+- Sound
+  - Disable interface sound effects
 
 Firefox
 -------
