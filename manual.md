@@ -35,6 +35,7 @@ Firefox
   - uBlock Origin
   - Tridactyl
   - Firefox Multi-Account Containers
+  - 1Password
 - Preferences:
   - General
     - Select: Restore previous session
