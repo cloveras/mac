@@ -70,6 +70,9 @@ Office 365
   - Onenote
 - Onedrive
   - Login and accept defaults
+- Skype for Business
+  - Download and install from portal.office.com
+  - Login
 
 Backup and Sync
 ---------------
