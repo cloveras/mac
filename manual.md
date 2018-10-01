@@ -30,8 +30,9 @@ System Preferences
 Firefox
 -------
 
-- Install extensions:
+- Install and configure extensions:
   - Tree Style Tab
+    - Plain Dark theme
   - uBlock Origin
   - Tridactyl
   - Firefox Multi-Account Containers
