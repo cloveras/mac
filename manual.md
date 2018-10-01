@@ -51,6 +51,11 @@ Keybase
 
 - Authenticate device
 
+iTunes
+------
+
+- Settings: General: Notifications: Disable when song changes
+
 Mail
 ----
 
