@@ -28,4 +28,3 @@ app keybase
 
 mas 803453959   # Slack
 mas 1333542190  # 1Password
-mas 585829637   # Todoist
