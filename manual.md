@@ -46,6 +46,11 @@ Firefox
   - Density: compact
   - Remove home, refresh, library, sidebars buttons
 
+Menubar
+-------
+
+- Battery: Show percentage
+
 Keybase
 -------
 
