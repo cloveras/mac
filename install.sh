@@ -29,3 +29,4 @@ app keybase
 
 mas 803453959   # Slack
 mas 1333542190  # 1Password
+mas 904280696   # Things 3
