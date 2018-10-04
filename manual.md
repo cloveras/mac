@@ -76,6 +76,13 @@ Things
 - Download http://culturedcode.cachefly.net/things/thingssandboxhelper/3.14/ThingsHelper.zip
 - Run ThingsHelper.app
 
+Cursorcerer
+-----------
+
+- Open: /Users/eu/Library/PreferencePanes
+- control click Cursorcerer.prefPane: open
+- Set idle delay to 5 seconds
+
 iTunes
 ------
 
