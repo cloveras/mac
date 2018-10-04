@@ -1,4 +1,4 @@
-#!/bin/sh
+#/bin/sh
 
 if ! [ -x /usr/local/bin/brew ]; then
 	hburl=https://raw.githubusercontent.com/Homebrew/install/master/install
@@ -30,3 +30,5 @@ app keybase
 mas 803453959   # Slack
 mas 1333542190  # 1Password
 mas 904280696   # Things 3
+mas 568494494   # Pocket
+mas 880001334   # Reeder 3
