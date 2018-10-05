@@ -37,6 +37,7 @@ Firefox
   - Tridactyl
   - Firefox Multi-Account Containers
   - 1Password
+  - Send To Things
 - Preferences:
   - General
     - Select: Restore previous session
