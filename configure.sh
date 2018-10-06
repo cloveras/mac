@@ -54,3 +54,10 @@ fi
 if [ "$SHELL" != /usr/local/bin/bash ]; then
 	chsh -s /usr/local/bin/bash
 fi
+
+##
+## VS Code VIM
+##
+
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
