@@ -2,5 +2,6 @@
     "files.insertFinalNewline": true,
     "git.enableSmartCommit": true,
     "workbench.statusBar.feedback.visible": false,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "One Dark Pro"
 }
