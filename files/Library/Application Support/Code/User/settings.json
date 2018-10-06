@@ -4,5 +4,8 @@
     "workbench.statusBar.feedback.visible": false,
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "editor.fontFamily": "IBM Plex Mono",
+    "editor.fontSize": 14,
+    "explorer.confirmDragAndDrop": false
 }

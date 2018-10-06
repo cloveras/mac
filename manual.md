@@ -49,6 +49,7 @@ VS Code
 
 - Extensions:
   - Vim
+  - One Dark Pro
 
 Menubar
 -------

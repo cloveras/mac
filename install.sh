@@ -5,6 +5,10 @@ if ! [ -x /usr/local/bin/brew ]; then
 	ruby -e "$(curl -fsSL $hburl)"
 fi
 
+if ! brew tap | grep -q homebrew/cask-fonts; then
+	brew tap homebrew/cask-fonts
+fi
+
 pkg() {
 	brew ls --versions $1 >/dev/null || brew install $1
 }
@@ -27,6 +31,7 @@ app google-photos-backup-and-sync
 app keybase
 app cursorcerer
 app visual-studio-code
+app font-ibm-plex
 
 mas 803453959   # Slack
 mas 1333542190  # 1Password
