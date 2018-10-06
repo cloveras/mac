@@ -33,3 +33,27 @@ mas 1333542190  # 1Password
 mas 904280696   # Things 3
 mas 568494494   # Pocket
 mas 880001334   # Reeder 3
+
+if ! [ -x $HOME/.cargo/bin/rustup ]; then
+	curl https://sh.rustup.rs -sSf | sh
+fi
+
+if ! [ -d $HOME/src/alacritty/.git ]; then
+	mkdir -p $HOME/src
+	(
+		cd $HOME/src
+		git clone https://github.com/jwilm/alacritty
+	)
+fi
+
+(
+	ALACRITTY_V=0.2.1
+	cd $HOME/src/alacritty
+	git fetch
+	git checkout tags/v$ALACRITTY_V
+
+	if ! [ -e /Applications/Alacritty.app ]; then
+		make app
+		cp -r target/release/osx/Alacritty.app /Applications/
+	fi
+)
