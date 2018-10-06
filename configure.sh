@@ -31,15 +31,15 @@ hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x70
 ## Dotfiles
 ##
 
-for f in $(find $FILES -type f); do
+find $FILES -type f -print0 | while IFS= read -r -d '' f; do
 	rel=${f##$FILES/}
 	src="$FILES/$rel"
 	dst="$HOME/$rel"
 
 	mkdir -p $(dirname "$dst")
 
-	if ! [ -h "$dst" ]; then
-		ln -s "$src" "$dst"
+	if ! [ -L "$dst" ]; then
+		ln -sf "$src" "$dst"
 	fi
 done
 
