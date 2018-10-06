@@ -27,6 +27,23 @@ System Preferences
   - Disable siri
   - Disable siri in menu bar
 
+Safari
+------
+
+- General
+  - Safari opens with: all windows from last time
+  - New window opens with: empty page
+  - Remove history items: manually
+- Tabs
+  - Show website icons in tabs
+- Autofill
+  - Username and passwords: disable
+- Extensions
+  - 1Password
+- Advanced
+  - Smart search field: show full website address
+  - Show develop menu in menu bar
+
 Firefox
 -------
 
