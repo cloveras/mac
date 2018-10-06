@@ -23,7 +23,6 @@ pkg tmux
 pkg pass
 pkg azure-cli
 
-app firefox
 app google-photos-backup-and-sync
 app keybase
 app cursorcerer

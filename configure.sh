@@ -5,22 +5,6 @@ TEMPLATES=$ROOT/templates
 FILES=$ROOT/files
 
 ##
-## Firefox
-##
-
-ff_profile_dir=~/Library/Application\ Support/Firefox/Profiles
-
-for d in "$ff_profile_dir"/*.default "$ff_profile_dir"/*.priv; do
-	if ! [ -d "$d" ]; then
-		continue
-	fi
-
-	mkdir -p "$d"/chrome
-	cp $TEMPLATES/user.uc.js "$d"/chrome/user.uc.js
-	cp $TEMPLATES/userChrome.css "$d"/chrome/userChrome.css
-done
-
-##
 ## Keymap
 ##
 
