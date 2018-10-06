@@ -3,5 +3,6 @@
     "git.enableSmartCommit": true,
     "workbench.statusBar.feedback.visible": false,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "One Dark Pro"
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.activityBar.visible": false
 }
