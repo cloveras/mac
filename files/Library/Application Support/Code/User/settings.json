@@ -1,5 +1,6 @@
 {
     "files.insertFinalNewline": true,
     "git.enableSmartCommit": true,
-    "workbench.statusBar.feedback.visible": false
+    "workbench.statusBar.feedback.visible": false,
+    "explorer.confirmDelete": false
 }
