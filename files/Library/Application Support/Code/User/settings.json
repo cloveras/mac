@@ -1,4 +1,5 @@
 {
     "files.insertFinalNewline": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "workbench.statusBar.feedback.visible": false
 }
