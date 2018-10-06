@@ -27,6 +27,7 @@ app firefox
 app google-photos-backup-and-sync
 app keybase
 app cursorcerer
+app visual-studio-code
 
 mas 803453959   # Slack
 mas 1333542190  # 1Password
