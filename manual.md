@@ -49,6 +49,12 @@ Firefox
   - Density: compact
   - Remove home, refresh, library, sidebars buttons
 
+VS Code
+-------
+
+- Extensions:
+  - Vim
+
 Menubar
 -------
 
