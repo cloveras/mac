@@ -42,3 +42,15 @@ for f in $(find $FILES -type f); do
 		ln -s "$src" "$dst"
 	fi
 done
+
+##
+## Shell
+##
+
+if ! grep -q /usr/local/bin/bash /etc/shells; then
+	echo >> /usr/local/bin/bash >> /etc/shells
+fi
+
+if [ "$SHELL" != /usr/local/bin/bash ]; then
+	chsh -s /usr/local/bin/bash
+fi
