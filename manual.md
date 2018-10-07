@@ -56,6 +56,23 @@ Menubar
 
 - Battery: Show percentage
 
+Contexts
+--------
+
+- Welcome
+  - Launch contexts at login
+- Apperance
+  - Vibrant dark
+- Sidebar
+  - Show sidebar on: No display
+- Search
+  - Search with: disable
+- Command-Tab
+  - Command-Tab
+    - Show windows from: visible spaces
+    - Apps without windows: do not show
+  - Command-Backtick: disable
+
 Keybase
 -------
 
