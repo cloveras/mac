@@ -40,6 +40,8 @@ Safari
   - Username and passwords: disable
 - Extensions
   - 1Password
+  - sVim
+  - Pocket
 - Advanced
   - Smart search field: show full website address
   - Show develop menu in menu bar
