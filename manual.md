@@ -23,6 +23,9 @@ System Preferences
       - Subset to Sunrise
 - Sound
   - Disable interface sound effects
+- iCloud
+  - iCloud Drive
+    - Desktop and Documents Folders: disable
 - Siri
   - Disable siri
   - Disable siri in menu bar
