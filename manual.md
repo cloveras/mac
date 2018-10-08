@@ -42,6 +42,7 @@ Safari
   - 1Password
   - sVim
   - Pocket
+  - Wipr
 - Advanced
   - Smart search field: show full website address
   - Show develop menu in menu bar
