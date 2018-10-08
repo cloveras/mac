@@ -28,6 +28,7 @@ pkg pass
 pkg azure-cli
 
 app contexts
+app iterm2
 app keybase
 app cursorcerer
 app visual-studio-code

@@ -2,7 +2,6 @@
 [[ $- != *i* ]] && return
 
 PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin"
-PATH="$HOME/.cargo/bin:$PATH"
 export PATH
 
 [[ $DISPLAY ]] && shopt -s checkwinsize
