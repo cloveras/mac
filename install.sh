@@ -32,6 +32,8 @@ app keybase
 app cursorcerer
 app visual-studio-code
 app font-ibm-plex
+app skype-for-business
+app microsoft-office
 
 mas 803453959   # Slack
 mas 1333542190  # 1Password
