@@ -58,6 +58,7 @@ VS Code
 - Extensions:
   - Vim
   - One Dark Pro
+  - Gitlens
 
 Menubar
 -------
