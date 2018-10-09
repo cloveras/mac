@@ -4,8 +4,6 @@ Manual configuration steps (or how much I miss Linux)
 System Preferences
 ------------------
 
-- General
-  - Apperance: Dark
 - Keyboard
   - Input sources
     - Add English ABC
