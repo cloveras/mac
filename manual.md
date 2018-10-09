@@ -58,7 +58,7 @@ VS Code
 
 - Extensions:
   - Vim
-  - One Dark Pro
+  - Atom One Light Theme
   - Gitlens
   - City Lights Icon package
   - Git Indicators

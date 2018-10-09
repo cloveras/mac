@@ -3,7 +3,7 @@
     "git.enableSmartCommit": true,
     "workbench.statusBar.feedback.visible": false,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Atom One Light",
     "workbench.activityBar.visible": false,
     "editor.fontFamily": "IBM Plex Mono",
     "editor.fontSize": 14,
