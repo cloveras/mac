@@ -7,5 +7,8 @@
     "workbench.activityBar.visible": false,
     "editor.fontFamily": "IBM Plex Mono",
     "editor.fontSize": 14,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
 }
