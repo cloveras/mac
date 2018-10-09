@@ -59,6 +59,7 @@ VS Code
   - Vim
   - One Dark Pro
   - Gitlens
+  - City Lights Icon package
 
 Menubar
 -------
