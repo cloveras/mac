@@ -31,6 +31,9 @@ System Preferences
 - Siri
   - Disable siri
   - Disable siri in menu bar
+- Date and Time
+  - Clock
+    - Show the day of week: disable
 
 Safari
 ------
@@ -82,6 +85,15 @@ Contexts
     - Show windows from: visible spaces
     - Apps without windows: do not show
   - Command-Backtick: disable
+
+Itsycal
+-------
+
+- General
+  - Launch on login
+- Apperance
+  - Date format: yyyy-MM-dd
+  - Hide icon
 
 Keybase
 -------

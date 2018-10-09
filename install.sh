@@ -31,6 +31,7 @@ app contexts
 app iterm2
 app keybase
 app cursorcerer
+app itsycal
 app visual-studio-code
 app font-ibm-plex
 app skype-for-business
