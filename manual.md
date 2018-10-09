@@ -93,6 +93,12 @@ Itsycal
   - Date format: yyyy-MM-dd
   - Hide icon
 
+Shifty
+------
+
+- General
+  - Enable shifty at startup
+
 Keybase
 -------
 
