@@ -63,6 +63,7 @@ VS Code
   - One Dark Pro
   - Gitlens
   - City Lights Icon package
+  - Git Indicators
 
 Menubar
 -------
