@@ -106,7 +106,6 @@ Reader
 - Services:
   - Disable all, except:
   - Pocket: Enable and show in toolbar
-  - Appearance: Darker
   - Reading:
     - Open links: Default browser
     - Open links in backgrround
