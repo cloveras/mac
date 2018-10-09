@@ -33,6 +33,7 @@ app keybase
 app cursorcerer
 app itsycal
 app iina
+app oversight
 app visual-studio-code
 app font-ibm-plex
 app skype-for-business
