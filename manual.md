@@ -60,7 +60,6 @@ VS Code
   - Vim
   - Atom One Light Theme
   - Gitlens
-  - City Lights Icon package
   - Git Indicators
 
 Menubar

@@ -11,5 +11,5 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
-    "workbench.iconTheme": "city-lights-icons-vsc"
+    "workbench.iconTheme": "vs-minimal"
 }
