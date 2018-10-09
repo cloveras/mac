@@ -29,6 +29,7 @@ pkg azure-cli
 
 app contexts
 app iterm2
+app firefox
 app keybase
 app cursorcerer
 app itsycal

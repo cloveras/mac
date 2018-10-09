@@ -53,6 +53,28 @@ Safari
   - Smart search field: show full website address
   - Show develop menu in menu bar
 
+Firefox
+-------
+
+- Install and configure extensions:
+  - Tree Style Tab
+    - Vertigo theme
+  - uBlock Origin
+  - Tridactyl
+  - Firefox Multi-Account Containers
+  - 1Password
+  - Send To Things
+- Preferences:
+  - General
+    - Select: Restore previous session
+  - Privacy & Security
+    - Disable: Ask to save logins and passwords
+- Customize
+  - Remove flexible spaces
+  - Add flexible space for macos window controls
+  - Density: compact
+  - Remove home, refresh, library, sidebars buttons
+
 VS Code
 -------
 
