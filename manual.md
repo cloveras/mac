@@ -78,13 +78,33 @@ Amethyst
  - Keyboard
    - Shortcuts
      - Mission Control
-       - Switch to Desktop 1: ^1
-       - Switch to Desktop 2: ^2
-       - Switch to Desktop 3: ^3
-       - Switch to Desktop 4: ^4
+       - Switch to Desktop 1: ⌥1
+       - Switch to Desktop 2: ⌥2
+       - Switch to Desktop 3: ⌥3
+       - Switch to Desktop 4: ⌥4
+       - Move left a space: disable
+       - Move right a space: disable
 - General
   - Layout HUD
     - Enable on space change: disable
+    - Window margins: 15px
+  - Shortcuts
+    - Disable all, except for:
+    - Shrink main pane: ⌥⇧H
+    - Expand main pane: ⌥⇧L
+    - Move focus counter clockwise: ⌥J
+    - Move focus clockwise: ⌥K
+    - Swap focused window counter clockwise: ⌥⇧J
+    - Swap focused window clockwise: ⌥⇧K
+    - Swap focused window with main window: ⌥↵
+    - Throw focused window to space 1: ⌥⇧1
+    - Throw focused window to space 2: ⌥⇧2
+    - Throw focused window to space 3: ⌥⇧3
+    - Throw focused window to space 4: ⌥⇧4
+    - Toggle float for focused window: ⌥⇧F
+    - Select tall layout: ⌥T
+    - Select floating layout: ⌥F
+
 
 VS Code
 -------
