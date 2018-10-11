@@ -28,6 +28,7 @@ pkg pass
 pkg azure-cli
 
 app amethyst
+app karabiner-elements
 app iterm2
 app firefox
 app keybase

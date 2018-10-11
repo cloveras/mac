@@ -105,6 +105,11 @@ Amethyst
     - Select tall layout: ⌥T
     - Select floating layout: ⌥F
 
+Karabiner Elements
+------------------
+
+- Complex modifications:
+  - Change caps_lock to escape
 
 VS Code
 -------
