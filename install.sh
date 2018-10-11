@@ -27,7 +27,6 @@ pkg tmux
 pkg pass
 pkg azure-cli
 
-app contexts
 app amethyst
 app iterm2
 app firefox
