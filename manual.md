@@ -71,6 +71,21 @@ Firefox
   - Density: compact
   - Remove home, refresh, library, sidebars buttons
 
+Amethyst
+--------
+
+- System Preferences
+ - Keyboard
+   - Shortcuts
+     - Mission Control
+       - Switch to Desktop 1: ^1
+       - Switch to Desktop 2: ^2
+       - Switch to Desktop 3: ^3
+       - Switch to Desktop 4: ^4
+- General
+  - Layout HUD
+    - Enable on space change: disable
+
 VS Code
 -------
 
