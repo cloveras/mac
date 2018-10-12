@@ -14,7 +14,13 @@ pkg() {
 }
 
 app() {
-	brew cask ls --versions $1 >/dev/null 2>/dev/null || brew cask install $1
+	if ! brew cask ls --versions $1 >/dev/null 2>/dev/null; then
+		if [ "$2"]; then
+			brew cask install $2
+		else
+			brew cask install $1
+		fi
+	fi
 }
 
 mas() {
@@ -28,13 +34,13 @@ pkg pass
 pkg azure-cli
 
 app amethyst
-app iterm2
 app firefox
 app keybase
 app cursorcerer
 app iina
 app oversight
 app usage
+app dozer https://raw.githubusercontent.com/Mortennn/Dozer/master/dozer.rb
 app visual-studio-code
 app font-ibm-plex
 app skype-for-business

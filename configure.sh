@@ -3,7 +3,6 @@
 ROOT=$(cd "$(dirname "$0")"; pwd -P)
 TEMPLATES=$ROOT/templates
 FILES=$ROOT/files
-DIRS=$ROOT/dirs
 
 ##
 ## Firefox
@@ -55,16 +54,6 @@ fi
 if [ "$SHELL" != /usr/local/bin/bash ]; then
 	chsh -s /usr/local/bin/bash
 fi
-
-##
-## iTerm2
-##
-
-if ! [ -L ~/.iterm2 ]; then
-	ln -s $DIRS/.iterm2 ~/
-fi
-
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.iterm2"
 
 ##
 ## VS Code VIM
