@@ -78,10 +78,15 @@ Amethyst
  - Keyboard
    - Shortcuts
      - Mission Control
-       - Switch to Desktop 1: ⌘1
-       - Switch to Desktop 2: ⌘2
-       - Switch to Desktop 3: ⌘3
-       - Switch to Desktop 4: ⌘4
+       - Mission Control: disable
+       - Application windows: disable
+       - Move left a space 1: ^←
+       - Move right a space 1: ^→
+       - Switch to Desktop 2: ^2
+       - Switch to Desktop 1: ^1
+       - Switch to Desktop 2: ^2
+       - Switch to Desktop 3: ^3
+       - Switch to Desktop 4: ^4
        - Move left a space: disable
        - Move right a space: disable
     - Modifier keys
@@ -96,14 +101,20 @@ Amethyst
     - Window margins: 15px
   - Shortcuts
     - Disable all, except for:
-    - Cycle layout forward: ⌘⇧Space
-    - Shrink main pane: ⌘⇧H
-    - Expand main pane: ⌘⇧L
-    - Move focus counter clockwise: ⌘J
-    - Move focus clockwise: ⌘K
-    - Swap focused window counter clockwise: ⌘⇧J
-    - Swap focused window clockwise: ⌘⇧K
-    - Swap focused window with main window: ⌘⇧↵
+    - Cycle layout forward: ^⇧Space
+    - Shrink main pane: ^⇧H
+    - Expand main pane: ^⇧L
+    - Move focus counter clockwise: ^J
+    - Move focus clockwise: ^K
+    - Swap focused window counter clockwise: ^⇧J
+    - Swap focused window clockwise: ^⇧K
+    - Swap focused window with main window: ^↵
+    - Throw focused window to space 1: ^⇧1
+    - Throw focused window to space 2: ^⇧2
+    - Throw focused window to space 3: ^⇧3
+    - Throw focused window to space 4: ^⇧4
+
+# TODO: fix command key clashing with iterm and maybe vs code
 
 VS Code
 -------
