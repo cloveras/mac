@@ -35,7 +35,6 @@ app cursorcerer
 app iina
 app oversight
 app usage
-app shifty
 app visual-studio-code
 app font-ibm-plex
 app skype-for-business
