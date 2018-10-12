@@ -84,6 +84,8 @@ Amethyst
        - Switch to Desktop 4: ⌥4
        - Move left a space: disable
        - Move right a space: disable
+    - Modifier keys
+      - Caps lock -> Escape
 - General
   - Layout HUD
     - Enable on space change: disable
@@ -104,12 +106,6 @@ Amethyst
     - Toggle float for focused window: ⌥⇧F
     - Select tall layout: ⌥T
     - Select floating layout: ⌥F
-
-Karabiner Elements
-------------------
-
-- Complex modifications:
-  - Change caps_lock to escape
 
 VS Code
 -------
