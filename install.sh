@@ -32,7 +32,6 @@ app iterm2
 app firefox
 app keybase
 app cursorcerer
-app itsycal
 app iina
 app oversight
 app usage
