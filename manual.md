@@ -121,23 +121,6 @@ Menubar
 
 - Battery: Show percentage
 
-Itsycal
--------
-
-- General
-  - Launch on login
-- Apperance
-  - Date format: yyyy-MM-dd
-  - Hide icon
-
-Fantastical
------------
-
-- System Preferences
-  - Notications
-    - Calendar: disable
-    - Reminders: disable
-
 Shifty
 ------
 
