@@ -38,7 +38,6 @@ pkg azure-cli
 app amethyst
 app firefox
 app keybase
-app cursorcerer
 app iina
 app oversight
 app usage
