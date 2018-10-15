@@ -1,6 +1,15 @@
 Manual configuration steps (or how much I miss Linux)
 =====================================================
 
+Install
+-------
+
+- English language
+- Norwegian location
+- US English keyboard
+- Disable iCloud Documents folders
+- Disable Siri
+
 System Preferences
 ------------------
 
