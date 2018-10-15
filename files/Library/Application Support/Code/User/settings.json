@@ -10,6 +10,5 @@
     "explorer.confirmDragAndDrop": false,
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.codeLens.enabled": false,
-    "workbench.iconTheme": "vs-minimal"
+    "gitlens.codeLens.enabled": false
 }
