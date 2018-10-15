@@ -41,7 +41,7 @@ done
 ##
 
 if ! grep -q /usr/local/bin/bash /etc/shells; then
-	echo >> /usr/local/bin/bash >> /etc/shells
+	sudo sh -c 'echo /usr/local/bin/bash >> /etc/shells'
 fi
 
 if [ "$SHELL" != /usr/local/bin/bash ]; then
