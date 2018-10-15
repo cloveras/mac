@@ -21,13 +21,6 @@ for d in "$ff_profile_dir"/*.default "$ff_profile_dir"/*.priv; do
 done
 
 ##
-## Keymap
-##
-
-# Swap ~ and §
-hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000064,"HIDKeyboardModifierMappingDst":0x700000035},{"HIDKeyboardModifierMappingSrc":0x700000035,"HIDKeyboardModifierMappingDst":0x700000064}]}'
-
-##
 ## Dotfiles
 ##
 
