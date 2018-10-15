@@ -178,3 +178,10 @@ Calendar
 - Preferences -> Accounts -> Google
   - Add personal mail
   - Change colors
+
+Keybase
+-------
+
+- Settings
+  - Advanced
+    - Open Keybase on startup: disable
