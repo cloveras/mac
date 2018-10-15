@@ -85,6 +85,7 @@ Amethyst
        - Switch to Desktop 4: ^4
     - Modifier keys
       - Caps lock -> Escape
+- Start Amethyst on login
 - General
   - Layouts
     - Only keep:
