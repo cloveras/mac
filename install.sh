@@ -29,6 +29,8 @@ mas() {
 
 pkg mas
 
+pkg bash
+pkg bash-completion
 pkg tmux
 pkg pass
 pkg azure-cli
