@@ -26,9 +26,6 @@ System Preferences
       - Subset to Sunrise
 - Sound
   - Disable interface sound effects
-- iCloud
-  - iCloud Drive
-    - Desktop and Documents Folders: disable
 - Users and Groups
   - Skype: disable
 - Siri
