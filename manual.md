@@ -19,7 +19,7 @@ System Preferences
   - Decrease size
   - Automatically hide
   - Position left
-- Misson Contorl
+- Misson Control
   - Disable automatic rearanging of spaces based on usage
 - Displays
   - Built-in Retina Display:
