@@ -28,9 +28,6 @@ System Preferences
   - Disable interface sound effects
 - Users and Groups
   - Skype: disable
-- Siri
-  - Disable siri
-  - Disable siri in menu bar
 - Date and Time
   - Clock
     - Show the day of week: disable
