@@ -182,8 +182,3 @@ Calendar
 - Preferences -> Accounts -> Google
   - Add personal mail
   - Change colors
-
-Backup and Sync
----------------
-
-- Login, accept defaults
