@@ -13,6 +13,8 @@ Install
 System Preferences
 ------------------
 
+- Desktop and screen saver
+  - Set background to https://unsplash.com/photos/07uiqD9LS6U
 - Dock
   - Decrease size
   - Automatically hide
