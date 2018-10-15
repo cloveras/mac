@@ -29,7 +29,7 @@ find $FILES -type f -print0 | while IFS= read -r -d '' f; do
 	src="$FILES/$rel"
 	dst="$HOME/$rel"
 
-	mkdir -p $(dirname "$dst")
+	mkdir -p "$(dirname "$dst")"
 
 	if ! [ -L "$dst" ]; then
 		ln -sf "$src" "$dst"
