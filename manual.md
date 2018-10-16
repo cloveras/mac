@@ -147,12 +147,6 @@ Reader
     - Open links: Default browser
     - Open links in backgrround
 
-Things
-------
-
-- Download http://culturedcode.cachefly.net/things/thingssandboxhelper/3.14/ThingsHelper.zip
-- Run ThingsHelper.app
-
 Cursorcerer
 -----------
 
