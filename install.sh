@@ -33,7 +33,10 @@ pkg bash
 pkg bash-completion
 pkg tmux
 pkg pass
+
 pkg azure-cli
+app java
+pkg git-credential-manager
 
 app amethyst
 app firefox
