@@ -1,6 +1,7 @@
 {
     "files.insertFinalNewline": true,
     "git.enableSmartCommit": true,
+    "git.autofetch": true,
     "workbench.statusBar.feedback.visible": false,
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "Atom One Light",
@@ -10,5 +11,5 @@
     "explorer.confirmDragAndDrop": false,
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
 }
