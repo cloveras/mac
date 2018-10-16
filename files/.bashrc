@@ -1,7 +1,7 @@
 # Bail if not running interactively:
 [[ $- != *i* ]] && return
 
-PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin"
+PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH
 
 [[ $DISPLAY ]] && shopt -s checkwinsize
