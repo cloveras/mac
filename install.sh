@@ -31,6 +31,7 @@ pkg mas
 
 pkg bash
 pkg bash-completion
+pkg git
 pkg tmux
 pkg pass
 
