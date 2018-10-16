@@ -193,3 +193,9 @@ Keybase
 - Settings
   - Advanced
     - Open Keybase on startup: disable
+
+OverSight
+---------
+
+- Settings
+  - Run in headless mode
