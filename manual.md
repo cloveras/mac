@@ -175,6 +175,18 @@ Calendar
   - Add personal mail
   - Change colors
 
+1Password
+---------
+
+- General
+  - Show 1Password in menu bar: disable
+
+Things
+------
+
+- Quick Entry
+  - Enable shortcut for quick entry: control-option-space
+
 Keybase
 -------
 
