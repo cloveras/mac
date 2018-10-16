@@ -44,6 +44,7 @@ app amethyst
 app firefox
 app keybase
 app iina
+app plex-media-player
 app oversight
 app usage
 app visual-studio-code
