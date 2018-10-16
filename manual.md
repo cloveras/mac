@@ -119,6 +119,8 @@ VS Code
   - Atom One Light Theme
   - Gitlens
   - Git Indicators
+  - Go
+  - Language support for Java
 
 Menubar
 -------
