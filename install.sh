@@ -37,6 +37,7 @@ pkg pass
 
 pkg azure-cli
 app java
+pkg maven
 pkg git-credential-manager
 
 app amethyst
