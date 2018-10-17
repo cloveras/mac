@@ -5,12 +5,14 @@ if ! [ -x /usr/local/bin/brew ]; then
 	ruby -e "$(curl -fsSL $hburl)"
 fi
 
-if ! brew tap | grep -q homebrew/cask-fonts; then
-	brew tap homebrew/cask-fonts
-fi
+tap() {
+	if ! brew tap | grep -q $1; then
+		brew tap $1
+	fi
+}
 
 pkg() {
-	brew ls --versions $1 >/dev/null || brew install $1
+	brew ls --versions $1 >/dev/null || brew install "$@"
 }
 
 app() {
@@ -27,6 +29,12 @@ mas() {
 	command mas list | grep -q ^$1 || command mas install $1
 }
 
+service() {
+	if ! brew services list | grep -q "$1.*started"; then
+		brew services start $1
+	fi
+}
+
 pkg mas
 
 pkg bash
@@ -34,6 +42,13 @@ pkg bash-completion
 pkg git
 pkg tmux
 pkg pass
+
+tap crisidev/homebrew-chunkwm
+pkg chunkwm --without-completions
+service chunkwm
+tap koekeishiya/homebrew-formulae
+pkg skhd
+service skhd
 
 pkg azure-cli
 app java
@@ -48,6 +63,7 @@ app plex-media-player
 app oversight
 app usage
 app visual-studio-code
+tap homebrew/cask-fonts
 app font-ibm-plex
 app skype-for-business
 app microsoft-office
