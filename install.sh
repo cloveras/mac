@@ -55,7 +55,6 @@ app java
 pkg maven
 pkg git-credential-manager
 
-app amethyst
 app firefox
 app keybase
 app iina
