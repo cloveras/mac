@@ -46,6 +46,10 @@ System Preferences
 - Energy saver
   - Power adapter
     - Turn display off after: 30 minutes
+- Keyboard
+  - Press fn key to: expand control strip
+- Trackpad
+  - Lookup & data detectors: disable
 - Sound
   - Disable interface sound effects
 - Users and Groups
