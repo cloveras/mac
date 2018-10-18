@@ -25,6 +25,11 @@ System Preferences
   - Position left
 - Misson Control
   - Disable automatic rearanging of spaces based on usage
+- Security and privacy
+  - Firewall
+    - Turn on firewall
+    - Firewall options
+      - Turn on stealth mode
 - Displays
   - Built-in Retina Display:
     - More Space
