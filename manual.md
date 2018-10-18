@@ -30,6 +30,14 @@ System Preferences
     - Turn on firewall
     - Firewall options
       - Turn on stealth mode
+- Spotlight
+  - Search results
+    - Disable all except:
+      - Applications
+      - Calculator
+      - Converison
+      - Definition
+      - System preferences
 - Displays
   - Built-in Retina Display:
     - More Space
