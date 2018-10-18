@@ -72,8 +72,8 @@ Firefox
   - Density: compact
   - Remove home, refresh, library, sidebars buttons
 
-Amethyst
---------
+Chunkwm
+-------
 
 - System Preferences
  - Keyboard
@@ -85,31 +85,6 @@ Amethyst
        - Switch to Desktop 4: ^4
     - Modifier keys
       - Caps lock -> Escape
-- Start Amethyst on login
-- General
-  - Layouts
-    - Only keep:
-      - tall
-      - fullscreen
-  - Layout HUD
-    - Enable on space change: disable
-    - Window margins: 15px
-  - Shortcuts
-    - Disable all, except for:
-    - Cycle layout forward: ^⇧Space
-    - Shrink main pane: ^⇧H
-    - Expand main pane: ^⇧L
-    - Move focus counter clockwise: ^J
-    - Move focus clockwise: ^K
-    - Swap focused window counter clockwise: ^⇧J
-    - Swap focused window clockwise: ^⇧K
-    - Swap focused window with main window: ^↵
-    - Throw focused window to space 1: ^⇧1
-    - Throw focused window to space 2: ^⇧2
-    - Throw focused window to space 3: ^⇧3
-    - Throw focused window to space 4: ^⇧4
-
-# TODO: fix command key clashing with iterm and maybe vs code
 
 VS Code
 -------
