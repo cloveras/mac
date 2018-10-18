@@ -43,6 +43,7 @@ pkg git
 pkg tmux
 pkg pass
 
+app bitbar
 tap crisidev/homebrew-chunkwm
 pkg chunkwm --without-completions
 service chunkwm

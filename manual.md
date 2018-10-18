@@ -199,3 +199,8 @@ OverSight
 
 - Settings
   - Run in headless mode
+
+BitBar
+------
+
+- Plugins folder: ~/src/mac/plugins
