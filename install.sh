@@ -59,6 +59,7 @@ pkg git-credential-manager
 app firefox
 app keybase
 app aerial
+app latest
 app iina
 app plex-media-player
 app oversight
