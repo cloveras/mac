@@ -14,7 +14,11 @@ System Preferences
 ------------------
 
 - Desktop and screen saver
-  - Set background to https://unsplash.com/photos/07uiqD9LS6U
+  - Desktop
+    - Set background to https://unsplash.com/photos/07uiqD9LS6U
+  - Screen saver
+    - Aerial
+    - Start after: 5 minutes
 - Dock
   - Decrease size
   - Automatically hide
@@ -26,6 +30,9 @@ System Preferences
     - More Space
     - Night Shift
       - Subset to Sunrise
+- Energy saver
+  - Power adapter
+    - Turn display off after: 30 minutes
 - Sound
   - Disable interface sound effects
 - Users and Groups
