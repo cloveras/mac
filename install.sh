@@ -79,6 +79,7 @@ app plex-media-player
 
 # Security
 app oversight
+app lulu
 mas 1333542190  # 1Password
 
 # Menubar
