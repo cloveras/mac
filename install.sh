@@ -35,14 +35,17 @@ service() {
 	fi
 }
 
+# Support
 pkg mas
 
+# CLI
 pkg bash
 pkg bash-completion
 pkg git
 pkg tmux
 pkg pass
 
+# WM
 app bitbar
 tap crisidev/homebrew-chunkwm
 pkg chunkwm --without-completions
@@ -51,27 +54,37 @@ tap koekeishiya/homebrew-formulae
 pkg skhd
 service skhd
 
+# Dev
 pkg azure-cli
 app java
 pkg maven
 pkg git-credential-manager
-
-app firefox
-app keybase
-app aerial
-app latest
-app iina
-app plex-media-player
-app oversight
-app usage
 app visual-studio-code
 tap homebrew/cask-fonts
 app font-ibm-plex
-app skype-for-business
-app microsoft-office
 
+# Desktop
+app firefox
 mas 803453959   # Slack
-mas 1333542190  # 1Password
 mas 904280696   # Things 3
 mas 568494494   # Pocket
 mas 880001334   # Reeder 3
+app keybase
+app aerial
+app latest
+
+# Media
+app iina
+app plex-media-player
+
+# Security
+app oversight
+mas 1333542190  # 1Password
+
+# Menubar
+app usage
+app keepingyouawake
+
+# Office
+app skype-for-business
+app microsoft-office
