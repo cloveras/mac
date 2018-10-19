@@ -10,6 +10,11 @@ Install
 - Disable iCloud Documents folders
 - Disable Siri
 
+Firmware
+--------
+
+- Setup firmware password: https://support.apple.com/en-gb/HT204455
+
 System Preferences
 ------------------
 
