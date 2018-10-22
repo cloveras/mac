@@ -49,6 +49,9 @@ shift + cmd - s : chunkc tiling::window --use-temporary-ratio -0.1 --adjust-wind
 shift + cmd - w : chunkc tiling::window --use-temporary-ratio -0.1 --adjust-window-edge north
 shift + cmd - d : chunkc tiling::window --use-temporary-ratio -0.1 --adjust-window-edge east
 
+# rotate tree
+alt - r : chunkc tiling::desktop --rotate 90
+
 # toggle window fullscreen
 alt - f : chunkc tiling::window --toggle fullscreen
 
