@@ -56,7 +56,8 @@ service skhd
 
 # Dev
 pkg azure-cli
-app java
+tap caskroom/versions
+app java8
 pkg maven
 pkg git-credential-manager
 app visual-studio-code
