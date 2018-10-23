@@ -59,6 +59,7 @@ pkg azure-cli
 tap caskroom/versions
 app java8
 pkg maven
+app intellij-idea-ce
 pkg git-credential-manager
 app visual-studio-code
 tap homebrew/cask-fonts
