@@ -13,4 +13,7 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "diffEditor.renderSideBySide": false,
 }
