@@ -124,7 +124,6 @@ VS Code
   - Gitlens
   - Git Indicators
   - Go
-  - Language support for Java
 
 Menubar
 -------
