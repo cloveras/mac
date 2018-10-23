@@ -43,7 +43,6 @@ pkg bash
 pkg bash-completion
 pkg git
 pkg tmux
-pkg pass
 
 # WM
 app bitbar
