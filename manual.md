@@ -28,8 +28,8 @@ System Preferences
   - Decrease size
   - Automatically hide
   - Position left
-- Misson Control
-  - Disable automatic rearanging of spaces based on usage
+- Mission Control
+  - Disable automatic rearranging of spaces based on usage
 - Security and privacy
   - Firewall
     - Turn on firewall
@@ -40,7 +40,7 @@ System Preferences
     - Disable all except:
       - Applications
       - Calculator
-      - Converison
+      - Conversion
       - Definition
       - System preferences
 - Displays
@@ -97,7 +97,7 @@ Firefox
     - Disable: Ask to save logins and passwords
 - Customize
   - Remove flexible spaces
-  - Add flexible space for macos window controls
+  - Add flexible space for MacOS window controls
   - Density: compact
   - Remove home, refresh, library, sidebars buttons
 
@@ -124,6 +124,7 @@ VS Code
   - Gitlens
   - Git Indicators
   - Go
+  - Spell Right
 
 Menubar
 -------
@@ -150,7 +151,7 @@ Reader
   - Pocket: Enable and show in toolbar
   - Reading:
     - Open links: Default browser
-    - Open links in backgrround
+    - Open links in background
 
 Cursorcerer
 -----------
