@@ -43,6 +43,7 @@ pkg bash
 pkg bash-completion
 pkg git
 pkg tmux
+pkg the_silver_searcher
 
 # WM
 app bitbar
