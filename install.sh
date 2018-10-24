@@ -64,7 +64,7 @@ pkg git-credential-manager
 app visual-studio-code
 tap homebrew/cask-fonts
 app font-ibm-plex
-app azure-data-studio
+app datagrip
 
 # Desktop
 app firefox
