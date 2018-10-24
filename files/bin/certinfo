@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo Q |
+	openssl s_client -connect $1:443 -servername $1 2>/dev/null |
+	openssl x509 -noout -text |
+	{
+		{
+			{
+				date --date="$(tee /dev/fd/3 /dev/fd/4 |
+					sed -n 's/.*Not After : \(.*\)$/\1/p')" \
+					+'Exp: %Y-%m-%d' >&9
+			} 4>&1 |
+			printf 'CN:  %s\n' $(
+				sed -n 's/.*Subject:.*CN = \(.*\)/\1/p' |
+				cut -d, -f1) >&9
+		} 3>&1 |
+			printf 'Alt: %s\n' $(sed -n '/DNS:/s/,/\n/gp' |
+			cut -d: -f2) >&9
+	} 9>&1
