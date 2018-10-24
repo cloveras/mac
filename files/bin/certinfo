@@ -6,7 +6,7 @@ echo Q |
 	{
 		{
 			{
-				date --date="$(tee /dev/fd/3 /dev/fd/4 |
+				python -c 'import datetime, sys; print(datetime.datetime.strptime(sys.argv[1], "%b %d %H:%M:%S %Y %Z").strftime("%Y-%m-%d"))' "$(tee /dev/fd/3 /dev/fd/4 |
 					sed -n 's/.*Not After : \(.*\)$/\1/p')" \
 					+'Exp: %Y-%m-%d' >&9
 			} 4>&1 |
