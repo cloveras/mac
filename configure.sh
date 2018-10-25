@@ -54,3 +54,15 @@ fi
 
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
+
+## Screengrabs in their own folder
+if ! [-d $HOME/Downloads/Screenshots]; then
+	mkdikr $HOME/Downloads/Screenshots
+fi
+defaults write com.apple.screencapture location $HOME/Downloads/Screenshots
+
+# Preview should not reopen all files from previous session
+defaults write com.apple.Preview NSQuitAlwaysKeepsWindows -bool false
+
+## Safari bacspace = navigate back
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool YES
