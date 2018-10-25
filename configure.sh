@@ -56,7 +56,7 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false        
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
 
 ## Screengrabs in their own folder
-if ! [-d $HOME/Downloads/Screenshots]; then
+if [ ! -d $HOME/Downloads/Screenshots]; then
 	mkdikr $HOME/Downloads/Screenshots
 fi
 defaults write com.apple.screencapture location $HOME/Downloads/Screenshots
